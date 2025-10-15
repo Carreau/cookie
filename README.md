@@ -316,6 +316,7 @@ for family, grp in itertools.groupby(collected.checks.items(), key=lambda x: x[1
 - [`PY002`](https://learn.scientific-python.org/development/guides/packaging-simple#PY002): Has a README.(md|rst) file
 - [`PY003`](https://learn.scientific-python.org/development/guides/packaging-simple#PY003): Has a LICENSE* file
 - [`PY004`](https://learn.scientific-python.org/development/guides/packaging-simple#PY004): Has docs folder
+- [`PY004b`](https://learn.scientific-python.org/development/guides/packaging-simple#PY004b): Documentation folder should be `docs` not `doc`
 - [`PY005`](https://learn.scientific-python.org/development/guides/packaging-simple#PY005): Has tests folder
 - [`PY006`](https://learn.scientific-python.org/development/guides/style#PY006): Has pre-commit config
 - [`PY007`](https://learn.scientific-python.org/development/guides/tasks#PY007): Supports an easy task runner (nox or tox)
@@ -332,6 +333,8 @@ for family, grp in itertools.groupby(collected.checks.items(), key=lambda x: x[1
 - [`PP307`](https://learn.scientific-python.org/development/guides/pytest#PP307): Specifies strict markers
 - [`PP308`](https://learn.scientific-python.org/development/guides/pytest#PP308): Specifies useful pytest summary
 - [`PP309`](https://learn.scientific-python.org/development/guides/pytest#PP309): Filter warnings specified
+- [`PP310`](https://learn.scientific-python.org/development/guides/pytest#PP310): Tests target is test not test (spec13)
+- [`PP311`](https://learn.scientific-python.org/development/guides/pytest#PP311): Tests target is `docs not` `doc` (spec13)
 
 ### Documentation
 - [`RTD100`](https://learn.scientific-python.org/development/guides/docs#RTD100): Uses ReadTheDocs (pyproject config)
